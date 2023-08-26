@@ -8,27 +8,24 @@ import "./i18n";
 import { useTranslation } from "react-i18next";
 //////////////////////////
 
-
 import LenguageSelector from "./Components/LenguageSelector/LenguageSelector";
 
-
 function App() {
-  
   //2. create this const and add your components text and keys
   const { t, i18n } = useTranslation();
   const textList = {
     title: t("Welcome to React"),
     solution: t("Solution"),
     documentation: t("Documentation"),
-    developer: t("Developer")
-  }
+    developer: t("Developer"),
+  };
   /////////////////
 
   /* E.g. jsx use:
-  *
-  * <p>{textList.title}</p>        
-  * 
-  */
+   *
+   * <p>{textList.title}</p>
+   *
+   */
 
   return (
     <div className="text-center selection:bg-green-900">
@@ -42,7 +39,7 @@ function App() {
           "
           }
         </style>
-        
+
         <p className="mb-4 bg-gradient-to-r from-emerald-300 to-sky-300 bg-clip-text p-3 text-5xl font-black text-transparent selection:bg-transparent">
           {textList.title}
         </p>
@@ -51,7 +48,7 @@ function App() {
 
         <img
           src={logo}
-          className="animate-speed h-60 motion-safe:animate-spin"
+          className="animate-speed contains my-10 h-32  motion-safe:animate-spin"
           alt="logo"
         />
 
