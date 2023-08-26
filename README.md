@@ -168,14 +168,14 @@ or you can use the Component Template I've included in your /src/Components fold
 ## Project Architecture
 The project follows a straightforward architecture:
 
-> src folder: Contains your application source code.
-    >> assets: Store your static assets like images, fonts, etc.
-    >> components: Organize your Vue components.
-    >> locales: Manage your i18n translations here.
+* src folder: Contains your application source code.
+    - assets: Store your static assets like images, fonts, etc.
+    - components: Organize your Vue components.
+    - locales: Manage your i18n translations here.
 
 
-> styles: Customize your Tailwind CSS in tailwind.config.js file
-> vite.config.js: Vite configuration file for customizing the build process.
+* styles: Customize your Tailwind CSS in tailwind.config.js file
+* vite.config.js: Vite configuration file for customizing the build process.
 
 ## Learn More
 
@@ -214,8 +214,8 @@ Thank you for being a part of this community and for considering supporting my w
 ## Contribute and Enhance
 Your contributions are invaluable! If you have ideas for improvements or encounter issues, please don't hesitate to:
 
-* [Create an Issue]()
-* [Submit a Pull Request]()
+* [Create an Issue](https://github.com/DaianaArena/vite-tailwind-localization-template/issues/new/choose)
+* [Submit a Pull Request](https://github.com/DaianaArena/vite-tailwind-localization-template/compare)
 
 I greatly appreciate your support in making this project even better.
 

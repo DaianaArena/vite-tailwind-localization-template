@@ -60,7 +60,7 @@ function App() {
         <p>
           <a
             className="text-[#61dafb] transition-all hover:text-blue-400"
-            href="https://reactjs.org"
+            href="https://github.com/DaianaArena/vite-tailwind-localization-template/blob/main/README.md"
             target="_blank"
             rel="noopener noreferrer"
           >
